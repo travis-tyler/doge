@@ -45,6 +45,7 @@ def doge_buy_stop_loss(buy_amount):
             else:
                 continue
         else:
+            high_price = current_price
             continue
 
 # Set up robin_stocks
